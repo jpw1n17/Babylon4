@@ -14,7 +14,7 @@ fill NaN and transofom strings to integer vector. At the sametime, update locati
 orginal data format: 
 ![image](https://raw.githubusercontent.com/Trouble404/kaggle-Job-Salary-Prediction/master/readme_pic/word.PNG)
 
-after [step 1](https://github.com/Trouble404/kaggle-Job-Salary-Prediction/blob/master/job-salary-datacleaning.ipynb)
+after [step 1](https://github.com/jpw1n17/Babylon4/blob/master/jz1g17/job-salary-datacleaning.ipynb)
 
 ![image](https://raw.githubusercontent.com/Trouble404/kaggle-Job-Salary-Prediction/master/readme_pic/wordtovec.PNG)
 
