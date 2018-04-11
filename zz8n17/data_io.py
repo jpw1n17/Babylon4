@@ -29,14 +29,6 @@ def get_valid_df():
     valid_path = get_paths()["valid_data_path"]
     return pd.read_csv(valid_path, converters=converters)
 
-def save_model(model):
-    out_path = get_paths()["model_path"]
-    pickle.dump(model, open(out_path, "wb"))
-
-def load_model():
-    in_path = get_paths()["model_path"]
-    return pickle.load(open(in_path))
-
 def write_submission(predictions):
     prediction_path = get_paths()["prediction_path"]
     writer = csv.writer(open(prediction_path, "w"), lineterminator="\n")
